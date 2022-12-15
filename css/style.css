@@ -1,0 +1,64 @@
+/**
+siempre colores de su paleta
+#CFD2CF
+
+mis fuentes
+familia de fuentes: 'Edu SA Principiante', cursiva;
+familia tipográfica: 'Roboto', sans-serif;
+*/
+/**<style>
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner:wght@500;600 & family= Roboto:ital,wght@0,300;1,300 & display=swap' );
+</estilo>**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos del header*/
+header{
+    color: rgb(90, 38, 38);
+    background-color:#495C83 ;
+}
+header nav {
+    background-color: aliceblue;
+}
+
+main{
+    background-color:#7A86B6 ;
+    font-family:'Edu SA Principiante', cursiva;
+    font-weight: bold; 
+    font-size: 20px;
+}
+.cardPrincipal{
+    background-color: aqua;
+}
+/**quitar los puntitos**/
+
+.barraNav {
+    list-style: none;
+}
+
+
+
+
+
+/** este no es css puro***/
+/**header {
+    color: red;
+}
+header{
+    color: blue;
+}
+section div {
+    color: blue;
+}***/
+/** las class se llama con un punto ***/
+/**.cardPrincipal{
+    color: green;
+}
+/** para id se un # ***/
+/**#parrafoSecundario {
+    color: aqua;
+}***/
